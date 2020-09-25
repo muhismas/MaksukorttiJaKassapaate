@@ -13,9 +13,7 @@ public class Kassapaate {
     }
 
     public double syoEdullisesti(double maksu) {
-        // edullinen lounas maksaa 2.50 euroa.
-        // päivitetään kassan rahamäärää lounaan hinnalla ja palautetaan vaihtorahat
-        // jos parametrina annettu maksu ei ole riittävän suuri, ei lounasta myydä ja metodi palauttaa koko summan
+        
         if (maksu >= 2.5) {
             this.rahaa += 2.50;
             this.edulliset++;
@@ -26,9 +24,7 @@ public class Kassapaate {
     }
 
     public double syoMaukkaasti(double maksu) {
-        // maukas lounas maksaa 4.30 euroa.
-        // päivitetään kassan rahamäärää lounaan hinnalla ja palautetaan vaihtorahat
-        // jos parametrina annettu maksu ei ole riittävän suuri, ei lounasta myydä ja metodi palauttaa koko summan
+        
         if(maksu>=4.30){
             this.rahaa += 4.30;
             this.maukkaat++;
